@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Conversation — Unsaid</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body data-page="conversation">
+        <header class="site-header">
+            <a href="index.html" class="brand">UNSAID<span> / </span>说不出口</a>
+            <nav class="topnav" aria-label="Site navigation">
+                <a href="index.html">01 / HOME</a><a aria-current="page" href="conversation.html">02 / CONVERSATION</a
+                ><a href="drafts.html">03 / DRAFTS</a><a href="reasons.html">04 / WHY</a
+                ><a href="reflection.html">05 / REFLECT</a>
+            </nav>
+        </header>
+        <main>
+            <div class="page-head">
+                <p class="page-index">FILE 01 OF 04 · OBSERVED CONVERSATIONS</p>
+                <h1>What we say.</h1>
+                <p class="lead">The messages are ordinary. Tap each message to reveal a thought that was never sent.</p>
+            </div>
+            <div class="conversation-layout">
+                <div class="phone-shell phone-large">
+                    <div class="phone-top">
+                        Dad
+                        <div class="status">TUESDAY, 9:41 PM</div>
+                    </div>
+                    <div class="thread">
+                        <div class="chat-line">
+                            <button class="bubble message-btn" data-reveal="thought1" aria-expanded="false">
+                                最近怎么样？<br /><small>How have you been?</small
+                                ><span class="hint">TAP TO REVEAL ↗</span>
+                            </button>
+                            <div id="thought1" class="chat-note" hidden>
+                                Have you been happy lately? We haven't really talked in a while.
+                            </div>
+                            <span class="chat-time">9:41 PM</span>
+                        </div>
+                        <div class="chat-line me">
+                            <button class="bubble message-btn" data-reveal="thought2" aria-expanded="false">
+                                挺好的。<br /><small>I'm doing fine.</small><span class="hint">TAP TO REVEAL ↗</span>
+                            </button>
+                            <div id="thought2" class="chat-note" hidden>
+                                I've had a difficult week. I almost called you yesterday.
+                            </div>
+                        </div>
+                        <div class="chat-line">
+                            <button class="bubble message-btn" data-reveal="thought3" aria-expanded="false">
+                                那就好。<br /><small>Glad to hear it.</small><span class="hint">TAP TO REVEAL ↗</span>
+                            </button>
+                            <div id="thought3" class="chat-note" hidden>
+                                I was worried about you. I miss hearing your voice.
+                            </div>
+                        </div>
+                        <div class="small-separator">THE NEXT DAY</div>
+                        <div class="chat-line">
+                            <button class="bubble message-btn" data-reveal="thought4" aria-expanded="false">
+                                吃饭了吗？<br /><small>Have you eaten?</small><span class="hint">TAP TO REVEAL ↗</span>
+                            </button>
+                            <div id="thought4" class="chat-note" hidden>
+                                Are you taking care of yourself? I wish I could be there.
+                            </div>
+                        </div>
+                        <div class="chat-line me">
+                            <button class="bubble message-btn" data-reveal="thought5" aria-expanded="false">
+                                吃了，你呢？<br /><small>Yes. You?</small><span class="hint">TAP TO REVEAL ↗</span>
+                            </button>
+                            <div id="thought5" class="chat-note" hidden>
+                                How are you really doing, Dad? I don't ask you that enough.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="phone-compose">
+                        TYPING… <span class="unsent-pill" style="float: right">UNSENT</span>
+                    </div>
+                </div>
+                <aside>
+                    <p class="eyebrow">READ BETWEEN THE LINES</p>
+                    <h2>Nothing here is a lie.</h2>
+                    <p class="lead">But each short message can hold more than it appears to say.</p>
+                    <p class="subtle">
+                        These are imagined exchanges informed by personal observation, not a claim about every father
+                        and child.
+                    </p>
+                    <div class="callout">
+                        Click the message bubbles on the left. Notice the difference between what is expressed and what
+                        remains unspoken.
+                    </div>
+                    <p class="reveal-count" data-counter>0 of 5 hidden thoughts revealed</p>
+                    <p class="paper-quote">“We can be close, and still not know how to begin.”</p>
+                    <div class="buttons"><a class="btn" href="drafts.html">CONTINUE TO UNSENT DRAFTS →</a></div>
+                </aside>
+            </div>
+        </main>
+        <footer class="foot"><span>FILE 01 / ORDINARY EXCHANGES</span><span>UNSAID / 2026</span></footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Unsent Drafts — Unsaid</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body data-page="drafts">
+        <header class="site-header">
+            <a href="index.html" class="brand">UNSAID<span> / </span>说不出口</a>
+            <nav class="topnav" aria-label="Site navigation">
+                <a href="index.html">01 / HOME</a><a href="conversation.html">02 / CONVERSATION</a
+                ><a aria-current="page" href="drafts.html">03 / DRAFTS</a><a href="reasons.html">04 / WHY</a
+                ><a href="reflection.html">05 / REFLECT</a>
+            </nav>
+        </header>
+        <main class="drafts">
+            <div class="page-head">
+                <p class="page-index">FILE 02 OF 04 · RECOVERED DRAFTS</p>
+                <h1>Almost sent.</h1>
+                <p class="lead">
+                    Sometimes the words exist. They are typed, reread, and erased. Open the drafts to see what was never
+                    delivered.
+                </p>
+            </div>
+            <article class="draft-card">
+                <span class="draft-number">DRAFT 001 / CHILD → FATHER</span>
+                <p class="draft-original">Final message sent: “没事。” / “Nothing much.”</p>
+                <p class="draft-message">I wanted to tell you about something that happened today…</p>
+                <button class="text-button" data-draft="draft1" aria-expanded="false">REVEAL DELETED WORDS +</button>
+                <div class="hidden-content" id="draft1">
+                    <div class="draft-reveal">
+                        “I had a difficult day. I almost called you, but I didn't know what we'd talk about. I wish we
+                        talked more.”
+                    </div>
+                    <p class="subtle">The words were composed. They never crossed the screen.</p>
+                </div>
+            </article>
+            <article class="draft-card">
+                <span class="draft-number">DRAFT 002 / FATHER → CHILD</span>
+                <p class="draft-original">Final message sent: “早点睡。” / “Sleep early.”</p>
+                <p class="draft-message">I know you're busy, but…</p>
+                <button class="text-button" data-draft="draft2" aria-expanded="false">REVEAL DELETED WORDS +</button>
+                <div class="hidden-content" id="draft2">
+                    <div class="draft-reveal">
+                        “I don't want to bother you. I just wanted to hear your voice. Take care of yourself. I'm proud
+                        of you.”
+                    </div>
+                    <p class="subtle">Care can sound like instruction when direct affection feels unfamiliar.</p>
+                </div>
+            </article>
+            <article class="draft-card">
+                <span class="draft-number">DRAFT 003 / CHILD → FATHER</span>
+                <p class="draft-original">Final message sent: “好。” / “Okay.”</p>
+                <p class="draft-message">There's something I've wanted to ask you…</p>
+                <button class="text-button" data-draft="draft3" aria-expanded="false">REVEAL DELETED WORDS +</button>
+                <div class="hidden-content" id="draft3">
+                    <div class="draft-reveal">
+                        “Are you tired? You carry so much responsibility. Are you happy with how your life is going?”
+                    </div>
+                    <p class="subtle">
+                        Concern is sometimes withheld because we don't know whether the other person wants to be asked.
+                    </p>
+                </div>
+            </article>
+            <div class="buttons">
+                <a class="btn" href="reasons.html">WHY DIDN'T THEY SEND? →</a
+                ><a class="btn secondary" href="conversation.html">← BACK TO CONVERSATION</a>
+            </div>
+        </main>
+        <footer class="foot"><span>FILE 02 / DELETED BUT REMEMBERED</span><span>UNSAID / 2026</span></footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>
